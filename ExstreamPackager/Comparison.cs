@@ -21,7 +21,7 @@ namespace ExstreamPackager
             List<string> newDiffContents = new List<string>();
             var oldDataTable = new DataTable("OldPubContent");
             var newDataTable = new DataTable("NewPubContent");
-            var oldDataTable_diff = new DataTable("OldPubContent_Diff");
+            var oldDataTable_diff = new DataTable("OldPubContent_Diff ");
             var newDataTable_diff = new DataTable("NewPubContent_Diff");
             oldDataTable_diff.Columns.Add("Compare report", typeof(System.String));
             newDataTable_diff.Columns.Add("Compare report", typeof(System.String));
